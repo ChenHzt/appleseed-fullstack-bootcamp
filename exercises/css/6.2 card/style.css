@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+    height: 380px;
+    background-color:blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+
+.card_image{
+    max-width: 100%;
+    max-height: 60%;
+    object-fit: cover;
+}
+
+.card_link{
+    font-size: 0.75em;
+    color: goldenrod;
+    padding-left: 10px;
+}
+
+.card_header{
+    margin: 0px;
+    padding-left: 10px;
+}
+.card_description{
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}

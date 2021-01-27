@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+</head>
+
+<body>
+    <h1>Create an Account</h1>
+    <form action="">
+        <p>
+            <label for="email">Email: </label>
+            <br>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+            <label for="age_dropdown">Age:</label>
+            <br>
+            <select name="age_dropdown" id="age_dropdown">
+                <option value="">Select Age:</option>
+                <option value="under 21">Under 21</option>
+                <option value="21-30">21-30</option>
+                <option value="31-40">31-40</option>
+                <option value="41-50">41-50</option>
+                <option value="51-60">51-60</option>
+                <option value="61-70">61-70</option>
+                <option value="70+">70+</option>
+            </select>
+        </p>
+        <p>
+            <label for="extra_info">Tell us a little about yourself: </label>
+            <br>
+            <textarea name="extra_info" id="extra_info" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="agree_to_terms" id="agree_to_terms">
+            <label for="agree_to_terms">I agree to the <a href="#">terms of service</a></label>
+        </p>
+        <p>
+            <input type="submit" value="Sign Up">
+        </p>
+    </form>
+</body>
+
+</html>

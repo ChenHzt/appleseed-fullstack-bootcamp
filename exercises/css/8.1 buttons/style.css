@@ -1,0 +1,152 @@
+
+
+/* not ghost  */
+#flat-register{
+    background-color: #00FF00;
+    border: 2px solid #00FF00;
+    padding: 10px 20px ;
+}
+#flat-clear{
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+    padding: 5px 15px ;
+}
+
+#flat-submit{
+    background-color: #4040df;
+    border: 2px solid #4040df;
+    padding: 1px 10px ;
+}
+
+#round-register {
+    background-color: #FFB400;
+    border: 2px solid #FFB400;
+    padding: 10px 20px ;
+    border-radius: 15px;
+}
+
+#round-clear{
+    background-color: #FFEF00;
+    border: 2px solid #FFEF00;
+    padding: 5px 15px ;
+    border-radius: 15px;
+}
+
+#round-submit{
+    background-color: #858080;
+    border: 2px solid #858080;
+    padding: 1px 10px ;
+    border-radius: 15px;
+}
+
+/* not ghost - hover */
+/* __________________________________________________ */
+
+#flat-register:hover{
+    background-color: #37d437;
+    border: 2px solid #37d437;
+}
+#flat-clear:hover{
+    background-color: #c02929;
+    border: 2px solid #c02929;
+}
+
+#flat-submit:hover{
+    background-color: #2828b9;
+    border: 2px solid #2828b9;
+}
+
+#round-register:hover {
+    background-color: #d69e19;
+    border: 2px solid #d69e19;
+
+}
+
+#round-clear:hover{
+    background-color: #ddd12c;
+    border: 2px solid #ddd12c;
+
+}
+
+#round-submit:hover{
+    background-color: #726f6f;
+    border: 2px solid #726f6f;
+}
+
+/* ghost */
+/* __________________________________________________ */
+
+#ghost-flat-register{
+    background-color: transparent;
+    border: 2px solid #00FF00;
+    padding: 10px 20px ;
+}
+#ghost-flat-clear{
+    background-color: transparent;
+    border: 2px solid #FF0000;
+    padding: 5px 15px ;
+}
+
+#ghost-flat-submit{
+    background-color: transparent;
+    border: 2px solid #4040df;
+    padding: 1px 10px ;
+}
+
+#ghost-round-register {
+    background-color: transparent;
+    border: 2px solid #FFB400;
+    padding: 10px 20px ;
+    border-radius: 15px;
+}
+
+#ghost-round-clear{
+    background-color: transparent;
+    border: 2px solid #FFEF00;
+    padding: 5px 15px ;
+    border-radius: 15px;
+}
+
+#ghost-round-submit{
+    background-color: transparent;
+    border: 2px solid #858080;
+    padding: 1px 10px ;
+    border-radius: 15px;
+}
+/* ghost-hover */
+/* __________________________________________________ */
+
+#ghost-flat-register:hover{
+    background-color: #00FF00;
+    border: 2px solid #00FF00;
+}
+#ghost-flat-clear:hover{
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+}
+
+#ghost-flat-submit:hover{
+    background-color: #4040df;
+    border: 2px solid #4040df;
+}
+
+#ghost-round-register:hover {
+    background-color: #FFB400;
+    border: 2px solid #FFB400;
+}
+
+#ghost-round-clear:hover{
+    background-color: #FFEF00;
+    border: 2px solid #FFEF00;
+}
+
+#ghost-round-submit:hover{
+    background-color: #858080;
+    border: 2px solid #858080;
+}
+
+/* __________________________________________________ */
+
+div{
+    padding: 10px;
+}

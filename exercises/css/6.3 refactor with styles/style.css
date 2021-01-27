@@ -1,0 +1,17 @@
+body{
+    background-image: url("/6.3\ refactor\ with\ styles/images/background.png");
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    border-radius: 20px;
+}
+
+h1{
+    font-weight: bold;
+    color: indianred;
+}
+
+p{
+    color: #D26C6C;
+}
+

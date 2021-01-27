@@ -1,0 +1,43 @@
+body{
+    background-image: url("/6.3\ refactor\ with\ styles/images/background.png");
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    border-radius: 20px;
+    float:right;
+}
+
+h1{
+    font-weight: bold;
+    color: indianred;
+    
+}
+
+.clr{
+    clear: both;
+}
+#info{
+    float: left;
+}
+
+p{
+    color: #D26C6C;
+}
+
+#container{
+    margin:  auto;
+    max-width: 60%;
+}
+li span{
+    font-size: 2em;
+    float:left;
+    padding: 10px;
+
+}
+ul{
+    list-style: none;
+}
+
+h4{
+    float: left;
+}

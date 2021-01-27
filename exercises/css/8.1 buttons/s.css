@@ -1,0 +1,46 @@
+.flat-register{
+    background-color: #00FF00;
+    border: 2px solid #00FF00;
+    padding: 10px 20px ;
+}
+
+.flat-clear{
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+    padding: 5px 15px ;
+}
+
+.flat-submit{
+    background-color: #4040df;
+    border: 2px solid #4040df;
+    padding: 1px 10px ;
+}
+
+.round-register {
+    background-color: #FFB400;
+    border: 2px solid #FFB400;
+    padding: 10px 20px ;
+    border-radius: 15px;
+}
+
+.round-clear{
+    background-color: #FFEF00;
+    border: 2px solid #FFEF00;
+    padding: 5px 15px ;
+    border-radius: 15px;
+}
+
+.round-submit{
+    background-color: #858080;
+    border: 2px solid #858080;
+    padding: 1px 10px ;
+    border-radius: 15px;
+}
+
+.ghost{
+    background-color: transparent;
+}
+
+div{
+    padding: 10px;
+}
