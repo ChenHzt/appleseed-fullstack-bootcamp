@@ -1,0 +1,25 @@
+@media(max-width: 500px){
+    .responsive-text{
+        font-size: 10px;
+    }
+}
+
+@media(min-width:501px) and (max-width: 768px){
+    .responsive-text{
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width:768px) and (max-width: 1200px){
+    .responsive-text{
+        font-size: 30px;
+    }
+}
+
+
+@media(min-width:1201px) {
+    .responsive-text{
+        font-size: 40px;
+    }
+}

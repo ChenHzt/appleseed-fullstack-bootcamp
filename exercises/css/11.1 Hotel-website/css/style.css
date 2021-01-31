@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    line-height: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ----------Utilities----------- */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow:auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color:blanchedalmond;
+}
+
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn{
+    
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-primary {
+    background: #f7c08a;
+    color: #333;
+  }
+
+
+.btn-dark{
+    background-color: black;
+    color: white;
+}
+.btn-light{
+    background-color: white;
+    color: black;
+
+}
+
+.clr{
+    clear: both;
+}
+/* ----------Navbar-------------- */
+
+#navbar{
+    background-color: #000;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar h1{
+    float:left;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#navbar ul li a{
+    float:left;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul{
+    float: right;
+}
+#navbar ul li{
+    list-style: none;
+    float: left;
+    /* display: block; */
+}
+
+#navbar ul li a:hover{
+    background-color: blanchedalmond;
+    color:blue;
+}
+
+/* --------showcase---------- */
+#showcase{
+    background-image: url("../images/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    text-align: center;
+    color: white;
+    padding:170px 0px;
+    
+}
+
+.showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.showcase-content p{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 23px 0px;
+    line-height: 1.4em;
+    
+} 
+
+
+
+/* -------hotel info------- */
+
+#home-info {
+    height: 400px;
+  }
+  
+  #home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../images/photo-1.jpg') no-repeat;
+    min-height: 100%;
+  }
+  
+  #home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+  
+  #home-info .info-content p {
+    padding-top: 13px;
+    padding-bottom: 25px;
+  }
+
+  .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align:center;
+  }
+
+  .box i {
+    margin-bottom: 10px;
+  }
+  
+  #main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+  }
+
+
+/* ------------about------------- */
+#about-info{
+    padding: 30px;
+}
+
+
+
+#about-info .info-left{
+    float:left;
+    max-width: 50%;
+}
+
+#about-info .info-left h1{
+    font-size: 40px;
+}
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+#testimonials{
+    padding: 30px;
+    background: url("../images/test-bg.jpg")no-repeat center center/cover;
+    
+
+    height: 600px;
+
+}
+
+#testimonials h2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  #testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+  }
+  
+  #testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+
+  #contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input, 
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+  }
+  
+  #contact-form textarea {
+    height: 200px;
+  }
+  
+  #contact-form input:focus, 
+  #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+  }

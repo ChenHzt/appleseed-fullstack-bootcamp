@@ -1,0 +1,41 @@
+div{
+    border: 2px solid black;
+}
+
+#first{
+    height: 200px;
+    width: 200px;
+    background-color: thistle;
+    position: absolute;
+    z-index: 1;
+}
+
+#second{
+    height: 200px;
+    width: 200px;
+    background-color:tomato;
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 150px;
+}
+
+#third{
+    height: 150px;
+    width: 400px;
+    background-color:cadetblue;
+    position: absolute;
+    z-index: 3;
+    top: 300px;
+}
+
+#fourth{
+    height: 500px;
+    width: 80px;
+    background-color:cornflowerblue;
+    position: absolute;
+    z-index: 4;
+    left: 300px;
+}
+
+
