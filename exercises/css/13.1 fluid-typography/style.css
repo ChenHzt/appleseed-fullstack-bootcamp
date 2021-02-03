@@ -1,0 +1,33 @@
+#approach-1 {
+    font-size: 20px;
+  }
+@media (min-width: 500px) {
+    #approach-1 {
+        font-size: 4vw;
+    }
+}  
+@media (min-width: 1500px) {
+    #approach-1{
+        font-size: 60px;
+    }
+}
+
+#approach-2 {
+    font-size: 20px
+   }
+   /* //fluid font from 320px onwards */
+   @media (min-width: 320px) {
+    #approach-2 {
+     font-size: calc(20px + 2vw);
+    }
+   }
+   /* //fix font size for large screens. Calculate this point */
+   @media (min-width: 1750px) {
+    #approach-2 {
+     font-size: 55px;
+    }
+   }
+
+   #approach-3 {
+    @include fluid-font(3vw, 20px, 55px, 35px);
+  }

@@ -1,0 +1,53 @@
+
+.content{
+    position: relative;
+    background-color: #444;
+    height: 200px;
+    width: 300px;
+}
+.top-corners:before, 
+.top-corners:after, 
+.bottom-corners:before, 
+.bottom-corners:after{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-color:tomato;
+    border-style: solid;
+    margin: 20px;
+}
+
+.top-corners, .bottom-corners{
+    height:70px;
+}
+
+.top-corners:before{
+    top:0;
+    left: 0;
+    border-width: 3px 0 0 3px;
+}
+
+.top-corners:after{
+    top:0;
+    right: 0;
+    border-width: 3px 3px 0 0 ;
+}
+
+.bottom-corners:before{
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 3px 3px;
+}
+
+.bottom-corners:after{
+    bottom: 0;
+    right:0px;
+    border-width: 0 3px 3px 0;
+}
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,26 @@
+/* smartphone */
+@media(max-width:500px)
+{
+    .column{
+        margin:10px ;
+        background-color: burlywood;
+    }
+}
+
+@media(min-width:501px) and (max-width:1200px){
+    .column{
+        float: left;
+        width:48%;
+        margin: 1%;
+        background-color: cadetblue;
+    }
+}
+
+@media(min-width:1201px){
+    .column{
+        float: left;
+        width:23%;
+        margin: 1%;
+        background-color:hotpink;
+    }
+}

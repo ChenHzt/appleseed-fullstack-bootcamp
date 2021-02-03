@@ -1,0 +1,26 @@
+.box{
+    background-color: turquoise;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    background-color:teal;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    transform: translateX(300px);
+    top:0;
+    left: 0;
+
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.box:hover::after{
+    background-color: tomato;
+    transform: translateX(0);
+
+}

@@ -1,0 +1,7 @@
+
+
+.navbar-flex, .navbar-flex ul{
+    flex-direction: column;
+    align-items: center;
+}
+

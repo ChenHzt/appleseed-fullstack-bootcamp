@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background-color: lemonchiffon;
+    justify-content:space-between;
+    height: 260px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+
+}
+
+#box1{
+    background-color: lightcoral;
+}
+
+#box2{
+    background-color: lightseagreen;
+}
+
+#box3{
+    background-color: mediumpurple;
+}

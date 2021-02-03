@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width:100vw;
+    height: 300px;
+}
+
+.spinner{
+    height: 100%;
+    width: 20%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner .dot{
+    height: 20px;
+    width: 20px;
+    background-color: palegreen;
+    border: none;
+    border-radius: 50%;
+    top:0;
+    margin: 5px;
+    
+}
+
+/* *************************************************** */
+/*                spiner 1 */
+/* *************************************************** */
+
+
+
+#spinner-1 .dot-1{
+    left: -120%;
+    animation: spinner-1-dot 800ms ease-out 0s infinite forwards ;
+}
+
+#spinner-1 .dot-2{
+    left: 0;
+    animation: spinner-1-dot 800ms ease-out 160ms infinite forwards ;
+}
+
+#spinner-1 .dot-3{
+    left: 120%;
+    animation: spinner-1-dot 800ms ease-out 320ms infinite forwards ;
+}
+
+
+@keyframes spinner-1-dot{
+    20%{
+        transform: translateY(-20px);
+    }
+    40%{
+        transform: translateY(0);
+    }
+
+}
+
+
+/* *************************************************** */
+/*                spiner 2 */
+/* *************************************************** */
+
+#spinner-2 .dot-1{
+    left: -120%;
+    animation: spinner-2-dot 1800ms ease-out 0s infinite forwards ;
+}
+
+#spinner-2 .dot-2{
+    left: 0;
+    animation: spinner-2-dot 1800ms ease-out 600ms infinite forwards ;
+}
+
+#spinner-2 .dot-3{
+    left: 120%;
+    animation: spinner-2-dot 1800ms ease-out 1200ms infinite forwards ;
+}
+
+
+@keyframes spinner-2-dot{
+    33%{
+        background-color: pink;
+    }
+    66%{
+        background-color: palegreen ;
+    }
+}
+
+
+/* *************************************************** */
+/*                spiner 3 */
+/* *************************************************** */
+#spinner-3 .circle{
+    height: 50px;
+    width: 50px;
+    border: rosybrown solid 2px;
+    border-width: 2px 2px 2px 0;
+    border-color:  transparent;
+    border-top-color: rosybrown;
+    border-radius: 50%;
+    animation: spin 800ms linear 1200ms infinite forwards ;
+}
+
+@keyframes spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/* *************************************************** */
+/*                spiner 3 */
+/* *************************************************** */
+#spinner-4 .circle{
+    height: 50px;
+    width: 50px;
+    border: rgb(211,211,211,0.3) solid 4px;
+    /* border-color:  transparent; */
+    border-radius: 50%;
+    position: relative;
+}
+
+#spinner-4 .circle::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -4px;
+    top:-4px;
+    right: 0;
+    bottom: 0;
+    border: transparent solid 4px;
+    margin: 0;
+    border-top-color: rosybrown;
+    z-index: 10;
+    border-radius: 50%;
+    animation: spin 800ms linear 1200ms infinite forwards ;
+
+}
+
+/* @keyframes spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+} */
+

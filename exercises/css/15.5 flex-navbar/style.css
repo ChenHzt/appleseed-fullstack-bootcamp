@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.navbar-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.navbar-flex ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar-flex ul li{
+    flex:1;
+    
+    padding: 1rem;
+}
+

@@ -1,0 +1,17 @@
+#main-box{
+    background-color: peachpuff;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+#main-box::after{
+    content: "";
+    position: absolute;
+    background-color: powderblue;
+    height: 100%;
+    width: 50%;
+    top:0;
+    left: 0;
+    right: 0;
+}

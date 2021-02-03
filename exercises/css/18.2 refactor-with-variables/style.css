@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-color: #446190;
+    --secondary-color: #f4f4f4;
+    --font-size-headline: 1.3em
+}
+body{
+    background-image: url("/8.2\ refactor\ with\ navbar/images/background.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    margin:  0 auto;
+    margin-top: calc(50vh - 205px);
+    max-width: 70%;
+    height:360px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 20px;
+}
+
+img{
+    border-radius:10px;
+    width: 28%;
+    float: right;
+
+}
+
+#info{
+    text-align: center;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 40px;
+    font-size: var(--font-size-headline);
+    
+}
+
+#myinfo{
+    float: left;
+    width: 70%;
+}
+
+#description{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    float:left;
+    width: 100%;
+    padding-bottom: 40px;   
+    border-bottom: 2px solid var(--secondary-color);   
+    
+}
+
+.clr{
+    clear:left;
+}
+
+#communication{
+    
+    margin: 20px auto;
+    width:fit-content;
+    font-size: 1.5em;
+    
+}
+#links{
+    float: left;
+}
+#label{
+    float: left;
+    font-weight: bold;
+}
+
+.communication-link{
+    margin: 5px;
+    color: var(--primary-color);
+    font-size: 1em;
+}
+
+.communication-link:hover{
+    color: var(--primary-color);
+    font-size: 1.2em;
+}
+
+.navbar{
+    list-style: none; 
+    background-color: var(--primary-color); 
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.nav-item {
+
+    float: left;
+}
+
+.nav-item a{
+    margin: 0px;
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-item a:hover{
+    background-color: #446190;
+}
