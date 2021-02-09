@@ -2,3 +2,5 @@
 *.pdf
 /sand-boxes
 /weekend
+/js-wesbos
+**/node_modules

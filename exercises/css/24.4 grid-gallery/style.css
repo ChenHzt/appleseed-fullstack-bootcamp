@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-grid{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(7,calc(100vh/7));
+    grid-auto-flow: row;
+    background-color: lightcoral;
+    /* max-width: 95vw; */
+    margin: auto;
+    /* gap: 10px; */
+}
+
+.image-grid img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.row-span-1{
+    grid-row: auto / span 1;
+}
+
+.row-span-2{
+    grid-row: auto / span 2;
+}
+
+.row-span-3{
+    grid-row: auto / span 3;
+
+}
+
+.col-span-1{
+    grid-column: auto / span 1;
+}
+
+.col-span-2{
+    grid-column: auto / span 2;
+}
+
+.col-span-3{
+    grid-column: auto / span 3;
+}
+
+.image-grid:nth-child(7){
+    grid-row: grid-row: 4 / span 1; ;
+}
