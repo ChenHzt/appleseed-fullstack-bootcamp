@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .top-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #answer {
+        text-align: center;
+        border: 1px solid black;
+        height: 20px;
+        width: 20px;
+      }
+      #message.red {
+        color: red;
+      }
+      #message.green {
+        color: green;
+      }
+      #restart {
+        text-align: center;
+      }
+      #restart.hide {
+        display: none;
+      }
+      .bottom-wrapper {
+        text-align: center;
+      }
+    </style>
+    <div class="container">
+      <div class="top-wrapper">
+        <h1>Welcome To Guess My Letter</h1>
+        <div id="answer">?</div>
+        <h5 id="message">Guess a key</h5>
+      </div>
+      <div id="restart" class="hide">
+        <h5>Would you like to play again?</h5>
+        <button>Yes</button>
+      </div>
+      <div class="bottom-wrapper">
+        <h3>Keys guessed</h3>
+        <div id="guessed-keys"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
