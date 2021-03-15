@@ -14,7 +14,7 @@ class App extends React.Component{
 
   render(){
     return (
-      <div>
+      <div class='App'>
         <button onClick={this.buttonClicked}>increment</button>
         <p>{this.state.counter}</p>
       </div>
