@@ -1,0 +1,16 @@
+.box{
+  height: 100px;
+  width: 100px;
+  margin:10px;
+}
+
+.round{
+  border-radius: 50%;
+}
+
+.color-1{
+  background-color: cornflowerblue;
+}
+.color-2{
+  background-color:crimson;
+}
