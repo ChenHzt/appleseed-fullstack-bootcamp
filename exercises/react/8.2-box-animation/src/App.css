@@ -1,0 +1,20 @@
+.box{
+  background-color: blueviolet;
+  transform: translateX(-100%);
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  margin:10px;
+}
+
+.hide{
+  display: none;
+}
+
+
+@keyframes slide-in{
+  to{
+    transform: translateX(0);
+
+  }
+}
