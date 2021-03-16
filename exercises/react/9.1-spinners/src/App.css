@@ -1,0 +1,59 @@
+.App{
+  display: flex;
+  justify-content: space-around;
+  width:100vw;
+  height: 300px;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner{
+  height: 100%;
+  width: 20%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner .dot{
+  height: 20px;
+  width: 20px;
+  background-color: palegreen;
+  border: none;
+  border-radius: 50%;
+  top:0;
+  margin: 5px;
+}
+
+.spinner .dot-1{
+  left: -120%;
+  animation: spinner-1-dot 800ms ease-out 0s infinite forwards ;
+}
+
+.spinner .dot-2{
+  left: 0;
+  animation: spinner-1-dot 800ms ease-out 160ms infinite forwards ;
+}
+
+.spinner .dot-3{
+  left: 120%;
+  animation: spinner-1-dot 800ms ease-out 320ms infinite forwards ;
+}
+
+
+@keyframes spinner-1-dot{
+  20%{
+      transform: translateY(-20px);
+  }
+  40%{
+      transform: translateY(0);
+  }
+
+}
