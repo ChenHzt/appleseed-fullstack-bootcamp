@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/header.component';
 import { HomePage } from './components/homepage.component';
 import { Products } from './components/product.component';
 import { ProductDetails } from './components/ProductDetail.component';
+import { NotFoundPage } from './components/404Page.component';
 
 class App extends React.Component {
   render() {
@@ -12,9 +13,12 @@ class App extends React.Component {
       <div className="">
         <BrowserRouter >
           <HeaderComponent/>
+          <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/products" exact component={Products} />
-          <Route path="/product/:id" exact component={ProductDetails} />
+          <Route path="/products/:id" component={ProductDetails} />
+          <Route component={NotFoundPage} />
+          </Switch>
         </BrowserRouter>
       </div>
     )

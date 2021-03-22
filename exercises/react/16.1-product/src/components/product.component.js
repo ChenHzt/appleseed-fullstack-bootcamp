@@ -18,8 +18,7 @@ export class Products extends React.Component{
     render(){
       return (
         <div className="productsList">
-            Product Page
-            {this.state.products.map((product,index) => <Link key={product.title} to={{pathname: `product/${index}`, query: product}} >{product.title}</Link>)}
+            {this.state.products.map((product,index) => <Link key={product.title} to={{pathname: `${this.props.location.pathname}/${index}`, query: product}} >{product.title}</Link>)}
         </div>
       )
     }
