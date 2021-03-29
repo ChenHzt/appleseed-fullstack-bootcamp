@@ -13,7 +13,7 @@ export class ProductDetails extends React.Component{
             <p>{`Size: ${this.props.location.query.size}`}</p>
             <p>{`ID: ${this.props.location.query.id}`}</p>
             <Link to='/products'>Go Back</Link>
-        </div>
+        </div>z
       )
     }
   }
