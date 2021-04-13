@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <video ref={videoRef} src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4"></video>
+      <video ref={videoRef} autoPlay muted src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"></video>
       <button onClick={playVideo}>PLAY</button>
       <button onClick={pauseVideo}>PAUSE</button>
     </div>
