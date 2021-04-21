@@ -69,45 +69,48 @@ const Product = mongoose.model('Product', {
 })
 
 
-const dyson = new Product({
-	name: "dyson vacuume",
-	category: "vacuume",
-	isActive: true,
-	details: {
-		description: "best vacuume",
-		price: 3000,
-		discount: 270,
-		images: ["img1", "img2"],
-		phone: "0502696006",
-	},
-});
+// const dyson = new Product({
+// 	name: "dyson vacuume",
+// 	category: "vacuume",
+// 	isActive: true,
+// 	details: {
+// 		description: "best vacuume",
+// 		price: 3000,
+// 		discount: 270,
+// 		images: ["img1", "img2"],
+// 		phone: "0502696006",
+// 	},
+// });
 
-dyson.save()
-	.then(() => {
-		console.log(dyson);
-	})
-	.catch((error) => {
-		console.log(error);
-	});
+// dyson.save()
+// 	.then(() => {
+// 		console.log(dyson);
+// 	})
+// 	.catch((error) => {
+// 		console.log(error);
+// 	});
 
-const ps5 = new Product({
-	name: "ps5",
-	category: "game consoles",
-	isActive: true,
-	details: {
-		description: "new sony console",
-		price: 2500,
-		images: ["img1", "img2"],
-		phone: "0502696006",
-	},
-});
+// const ps5 = new Product({
+// 	name: "ps5",
+// 	category: "game consoles",
+// 	isActive: true,
+// 	details: {
+// 		description: "new sony console",
+// 		price: 2500,
+// 		images: ["img1", "img2"],
+// 		phone: "0502696006",
+// 	},
+// });
 
-ps5
-	.save()
-	.then(() => {
-		console.log(ps5);
-	})
-	.catch((error) => {
-		console.log(error);
-	});
+// ps5
+// 	.save()
+// 	.then(() => {
+// 		console.log(ps5);
+// 	})
+// 	.catch((error) => {
+// 		console.log(error);
+// 	});
 
+
+
+module.exports =  Product
